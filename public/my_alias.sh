@@ -14,10 +14,10 @@ alias clear="printf \"\033c\""
 
 
 #################### Brew ####################
-alias sm_brewUpdate="cd $SHELLMASTER_PUBLIC && brew update && brew upgrade && brew cleanup && cd -"
-alias sm_outdated="cd $SHELLMASTER_PUBLIC && brew outdated && cd -"
-alias sm_brewBackup="confirm_and_run 'rm -f $SHELLMASTER_PUBLIC/Brewfile && brew bundle dump --file=$SHELLMASTER_PUBLIC/Brewfile'"
-alias sm_bundle="confirm_and_run 'brew bundle --file=$SHELLMASTER_PUBLIC/Brewfile'"
+alias sm_brewUpdate="cd \"$SHELLMASTER_PUBLIC\" && brew update && brew upgrade && brew cleanup && cd -"
+alias sm_outdated="cd \"$SHELLMASTER_PUBLIC\" && brew outdated && cd -"
+alias sm_brewBackup="confirm_and_run 'rm -f \"$SHELLMASTER_PUBLIC\"/Brewfile && brew bundle dump --file=\"$SHELLMASTER_PUBLIC\"/Brewfile'"
+alias sm_bundle="confirm_and_run 'brew bundle --file=\"$SHELLMASTER_PUBLIC\"/Brewfile'"
 
 #################### Define functions ####################
 # Function to colorize command names
