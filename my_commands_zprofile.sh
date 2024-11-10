@@ -1,0 +1,1 @@
+source "$SHELLMASTER/public/my_zprofile.sh"
