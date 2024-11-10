@@ -19,14 +19,14 @@ code $HOME/.zshrc
 
 # Add this line to the end of .zshrc
 export SHELLMASTER="absolute/path/to/shell-master" # export SHELLMASTER="$HOME/shell-master"
-source "$HOME/workspace/shell-master/my_commands_zshrc.sh"
+source "$SHELLMASTER/my_commands_zshrc.sh"
 
 # Open the file .zprofile
 code $HOME/.zprofile
 
 # Add this line to the end of .zprofile
 export SHELLMASTER="absolute/path/to/shell-master" # export SHELLMASTER="$HOME/shell-master"
-source "$HOME/workspace/shell-master/my_commands_zprofile.sh"
+source "$SHELLMASTER/my_commands_zprofile.sh"
 ```
 
 # Homebrew Bundle
