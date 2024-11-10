@@ -18,14 +18,14 @@ sm
 code $HOME/.zshrc
 
 # Add this line to the end of .zshrc
-export SHELLMASTER="absolute/path/to/shell-master" # export SHELLMASTER="$HOME/shell-master"
+export SHELLMASTER="absolute/path/to/shell-master-public" # export SHELLMASTER="$HOME/shell-master-public"
 source "$SHELLMASTER/my_commands_zshrc.sh"
 
 # Open the file .zprofile
 code $HOME/.zprofile
 
 # Add this line to the end of .zprofile
-export SHELLMASTER="absolute/path/to/shell-master" # export SHELLMASTER="$HOME/shell-master"
+export SHELLMASTER="absolute/path/to/shell-master-public" # export SHELLMASTER="$HOME/shell-master-public"
 source "$SHELLMASTER/my_commands_zprofile.sh"
 ```
 
